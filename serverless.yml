@@ -49,3 +49,9 @@ functions:
       - http:
           path: temperature
           method: get
+  today:
+    handler: handler.today
+    events:
+      - http:
+          path: today
+          method: get
